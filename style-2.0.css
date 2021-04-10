@@ -49,7 +49,7 @@ body {
 
    .logo{
     font-family: 'Grenze Gotisch', cursive;
-     font-size: 90px;
+     font-size: 90%;
      position: absolute;
      z-index: 10;
    }
