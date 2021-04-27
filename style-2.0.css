@@ -8,7 +8,6 @@ body {
   position: relative;
 }
 
-
 .loading {
   display: flex;
   pointer-events: none;
@@ -38,57 +37,57 @@ body {
   transition: all 3000ms ease;
   background-color: #7ee8fa;
   background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
-  
 }
 .site {
   width: 100%;
   height: 100%;
 }
-   /*/////////////////////////*/
+/*/////////////////////////*/
 
-
-   .logo{
-    font-family: 'Grenze Gotisch', cursive;
-     font-size: 1em;
-     position: absolute;
-     z-index: 10;
-   }
-
-  .logo:hover{
-    background: linear-gradient(to right, #ff655b, #fd297b, #ff5864);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .l1{
-    width: 100%;
-    height: 0%;
-    background-color: yellow;
-  }
-
-  .l2{
-    width: 100%;
-    height: 0%;
-    background-color: red;
-  }
-
-  .l3{
-    width: 100%;
-    height: 0%;
-    background-color: green;
-  }
-
-  .l1, .l2 , .l3{
-    transition: all 200ms ease-in;
-    position: absolute;
-  }
-
-.add{
-  height: 100%;
-}
-.index{
+.logo {
+  font-family: "Grenze Gotisch", cursive;
+  font-size: 5vw;
+  position: absolute;
   z-index: 10;
 }
-.c{
+
+.logo:hover {
+  background: linear-gradient(to right, #ff655b, #fd297b, #ff5864);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.l1 {
+  width: 100%;
+  height: 0%;
+  background-color: yellow;
+}
+
+.l2 {
+  width: 100%;
+  height: 0%;
+  background-color: red;
+}
+
+.l3 {
+  width: 100%;
+  height: 0%;
+  background-color: green;
+}
+
+.l1,
+.l2,
+.l3 {
+  transition: all 200ms ease-in;
+  position: absolute;
+}
+
+.add {
+  height: 100%;
+}
+.index {
+  z-index: 10;
+}
+.c {
   color: white;
 }
